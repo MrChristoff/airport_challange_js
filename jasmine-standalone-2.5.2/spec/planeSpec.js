@@ -7,13 +7,13 @@ describe('Plane', function() {
   });
 
   describe('new plane', function() {
-    it('has landed set to False', function() {
+    it('has landed set to false', function() {
       expect(plane.landed).toBe(false);
     });
   });
 
   describe('new plane', function() {
-    it('has landed set to False', function() {
+    it('has landed set to true', function() {
       plane.landed = true
       expect(plane.landed).toBe(true);
     });
